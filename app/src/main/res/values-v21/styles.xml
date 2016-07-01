@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myStyle" parent="Theme.AppCompat.Light">
+        <!--<item name="android:background">@color/background_floating_material_dark</item>-->
+        <item name="android:colorPrimary">#ff67d1e3</item>
+        <item name="android:colorPrimaryDark">#ff4194ff</item>
+        <item name="android:colorAccent">#ff404aff</item>
+        <item name="android:onClick">#ffb8a3ff</item>
+        <item name="android:colorPressedHighlight">#ffcde8c5</item>
+    </style>
+
+
+</resources>

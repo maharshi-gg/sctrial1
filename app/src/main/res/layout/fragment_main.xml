@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/main_fragment"
+    tools:context="com.example.ipt02.spotchecktrial1.MainActivityFragment">
+
+
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Location:"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/location_spinner"
+            android:layout_toStartOf="@+id/location_spinner" />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/location_spinner"
+            android:entries="@array/location"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Date:"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/location_spinner"
+            android:layout_toStartOf="@+id/location_spinner" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Shift:"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/shift_spinner3"
+            android:layout_toStartOf="@+id/shift_spinner3" />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/shift_spinner3"
+            android:entries="@array/shift"
+            android:layout_above="@+id/disciples_spinner4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Disciples:"
+            android:id="@+id/textView4"
+            android:gravity="center"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/shift_spinner3"
+            android:layout_toStartOf="@+id/shift_spinner3" />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/disciples_spinner4"
+            android:entries="@array/disciples"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="100dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Project:"
+            android:id="@+id/textView5"
+            android:gravity="center"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/project_spinner5"
+            android:layout_toStartOf="@+id/project_spinner5" />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/project_spinner5"
+            android:layout_below="@+id/disciples_spinner4"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint=""
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_alignTop="@+id/textView2" />
+
+    <!--<CalendarView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/calendarView"-->
+            <!--android:layout_below="@+id/textView"-->
+            <!--android:layout_alignRight="@+id/location_spinner"-->
+            <!--android:layout_alignEnd="@+id/location_spinner"-->
+            <!--android:layout_alignBottom="@+id/textView2"-->
+            <!--android:layout_toRightOf="@+id/textView"-->
+            <!--android:layout_toEndOf="@+id/textView" />-->
+
+
+
+</RelativeLayout>
